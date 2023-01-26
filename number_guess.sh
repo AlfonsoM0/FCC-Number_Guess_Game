@@ -78,3 +78,5 @@ EVALUATE
 # Clear db: TRUNCATE users RESTART IDENTITY CASCADE;
 
 # db DUMP: pg_dump --clean --create --inserts --username=freecodecamp number_guess > number_guess.sql
+
+# db REBUILD: psql -U postgres < number_guess.sql
